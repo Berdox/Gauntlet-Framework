@@ -25,4 +25,4 @@ It handles triggers, UI, logic, and data management so custom gauntlets can be m
 
 ## Purpose
 
-This framework provides a consistent structure for custom Titanfall 2 gauntlets. For parkour routes, or full gauntlet maps, the framework acts as the backbone for reliable, easy-to-extend behavior.
+This framework provides a consistent structure for custom Titanfall 2 gauntlets. For parkour routes, surf maps, or full gauntlet map.

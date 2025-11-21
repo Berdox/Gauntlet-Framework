@@ -1,0 +1,7 @@
+{
+    "name": "Gauntlet_Framwork",
+    "version_number": "0.5.0",
+    "website_url": "https://github.com/Berdox/Gauntlet-Framework",
+    "description": "A framework built for titanfall 2 to manage the start, finish, checkpoints, timer, and other UI elements",
+    "dependencies": []
+}

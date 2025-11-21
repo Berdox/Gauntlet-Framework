@@ -45,7 +45,7 @@ void function Gauntlet_ServerStart() {
     string mapName = GetMapName()
     if ( mapName.find("surf") != null )
     {
-        thread Gauntlet_ServerInit()
+        thread Gauntlet_Server_Init()
     }
 }
 
@@ -53,7 +53,7 @@ void function Gauntlet_ServerStart() {
 // ======================================================================
 // Init Triggers and Callbacks
 // ======================================================================
-void function Gauntlet_ServerInit()
+void function Gauntlet_Server_Init()
 {   
     wait(3)
     //print("gauntlet init start ********************************")

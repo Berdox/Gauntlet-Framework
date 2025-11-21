@@ -1,0 +1,25 @@
+{
+	"Name" : "Berdox.gauntlet_framework",
+	"Description": "",
+	"Version": "1.0.0",
+	"LoadPriority": 4,
+	"RequiredOnClient": true,
+	
+	"Scripts": [
+		{
+            "Path": "sv_gauntlet.nut",
+            "RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "Gauntlet_ServerStart",
+				"Before": "Gauntlet_NetworkRegistration"
+			}
+        },
+		{
+            "Path": "cl_gauntlet.nut",
+            "RunOn": "CLIENT && MP",
+			"ClientCallback": {
+				"Before": "Gauntlet_NetworkRegistration"
+			}
+        }
+	]
+}

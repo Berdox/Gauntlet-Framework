@@ -8,7 +8,7 @@
 	"Scripts": [
 		{
             "Path": "sv_gauntlet.nut",
-            "RunOn": "SERVER",
+            "RunOn": "SERVER && MP",
 			"ServerCallback": {
 				"After": "Gauntlet_ServerStart",
 				"Before": "Gauntlet_NetworkRegistration"
@@ -16,7 +16,7 @@
         },
 		{
             "Path": "cl_gauntlet.nut",
-            "RunOn": "CLIENT",
+            "RunOn": "CLIENT && MP",
 			"ClientCallback": {
 				"Before": "Gauntlet_NetworkRegistration"
 			}

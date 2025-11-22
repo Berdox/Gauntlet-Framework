@@ -39,7 +39,7 @@ jobs:
           # This should be modified if your github username is different than your team name on Thunderstore
           namespace: Berdox # <------ DOUBLE CHECK THIS
           # Name of the package
-          name: Gauntlet_Framwork # This can be modified if the package name differs from the repo name
+          name: Gauntlet_Framework # This can be modified if the package name differs from the repo name
           # Package version to publish
           version: ${{ env.cleanVersion }} # This is the tag that was created in the release but without the leading 'v'
           # Description of the mod

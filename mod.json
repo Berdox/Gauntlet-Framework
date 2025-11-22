@@ -1,7 +1,7 @@
 {
 	"Name" : "Berdox.gauntlet_framework",
 	"Description": "A framework built for titanfall 2 to manage the start, finish, checkpoints, timer, and other UI elements for map",
-	"Version": "0.5.4",
+	"Version": "0.5.5",
 	"LoadPriority": 4,
 	"RequiredOnClient": true,
 	
